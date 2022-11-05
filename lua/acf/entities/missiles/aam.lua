@@ -21,7 +21,7 @@ Missiles.RegisterItem("AIM-9 AAM", "AAM", {
 	ReloadTime	= 10,
 	ExhaustPos  = Vector(-42),
 	Racks		= { ["1xRK_small"] = true, ["1xRK"] = true, ["2xRK"] = true, ["4xRK"] = true },
-	Guidance	= { Dumb = true, Infrared = true, ["Semi-Active Radar"] = true, ["Active Homing"] = true },
+	Guidance	= { Dumb = true, Infrared = true, ["Semi-Active Radar"] = true },
 	Navigation  = "APN",
 	Fuzes		= { Contact = true, Radio = true },
 	SeekCone	= 10,
